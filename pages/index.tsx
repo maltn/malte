@@ -47,7 +47,7 @@ const Section2 = () => (
 
 export default function Home() {
   return (
-    <div className="w-full h-screen flex justify-center">
+    <div className="w-full flex justify-center mb-20">
       {/* content */}
       <div className="w-2/5">
         {/* introduction */}
@@ -59,7 +59,22 @@ export default function Home() {
 
         <Divider width="full" />
         {/* projects */}
-        <div className="w-full h-80 mb-4"></div>
+        <div className="w-full">
+          <span className="text-5xl mb-20 block text-center mt-20">
+            Personal Projects
+          </span>
+          <div className="w-full">
+            <div className="w-1/3 h-96 p-4 float-left">
+              <div className="w-full h-full bg-white shadow-md rounded-sm"></div>
+            </div>
+            <div className="w-1/3 h-96 p-4 float-left">
+              <div className="w-full h-full bg-white shadow-md rounded-sm"></div>
+            </div>
+            <div className="w-1/3 h-96 p-4 float-left">
+              <div className="w-full h-full bg-white shadow-md rounded-sm"></div>
+            </div>
+          </div>
+        </div>
 
         {/* socials */}
       </div>

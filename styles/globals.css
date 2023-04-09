@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 body {
-  background-color: #f5f1eb;
+  background-color: #f3eee4;
+}
+
+* {
+  font-family: "Rubik";
+  color: #1c2334;
 }
 
 .divider {
